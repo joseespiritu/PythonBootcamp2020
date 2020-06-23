@@ -20,16 +20,13 @@ h = int(m)/60 + int(s)/3600
 print(h)"""
 
 
-def add(x,y):
+def add(x, y):
     z = x + y
     return print(z)
 
-a = 3
-b = 5
-add(a,b)
-d = 3
-e = 2
-add(d,e)
-g = 3
-h = 2
-add(g,h)
+
+a = input("Enter the first value: ")
+b = input("Enter the second value: ")
+a = int(a)
+b = int(b)
+add(a, b)
