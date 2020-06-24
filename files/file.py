@@ -20,3 +20,17 @@ print(read)"""
 file = open("test.txt", "a")
 file.write("pink")
 file.close()
+
+# Different methods
+"""
+
+r
+r+
+
+w
+w+
+
+a
+a+
+
+"""
