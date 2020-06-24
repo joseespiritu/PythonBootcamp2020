@@ -1,5 +1,7 @@
 import datetime
 
-x = datetime.datetime.now()
+x = datetime.datetime(2060,3,10)
 
-print(x)
+print(x.year)
+print(x.month)
+print(x.day)
