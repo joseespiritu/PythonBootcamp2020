@@ -1,7 +1,9 @@
 import datetime
 
-x = datetime.datetime(2060,3,10)
+x = datetime.datetime.now()
 
-print(x.year)
-print(x.month)
-print(x.day)
+print(x.strftime("%B"))
+print(x.strftime("%A"))
+print(x.strftime("%d"))
+
+# Date formatting outputs in python
